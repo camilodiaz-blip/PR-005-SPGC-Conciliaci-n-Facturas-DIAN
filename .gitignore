@@ -1,0 +1,20 @@
+# Datos de facturas, NIT y valores: no se suben al repositorio
+data/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pdf
+
+# Accesos directos de Google Drive
+*.gdoc
+*.gsheet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/

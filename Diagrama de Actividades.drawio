@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="RCkc3xKdsAG-nzy_YG1S">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-2" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Diagrama de Actividades" vertex="1">
+          <mxGeometry height="2320" width="1290" x="1760" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-3" parent="pOTsynvupev_f8Cp1Rnz-2" style="swimlane;startSize=20;html=1;" value="Operador" vertex="1">
+          <mxGeometry height="2300" width="400" y="20" as="geometry" />
+        </mxCell>
+        <UserObject label="Inicio" mermaidId="n:INI" mermaidBaseStyle="ellipse;html=1;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#222;strokeColor=#222;fontColor=#fff;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Inicio" id="wMpOa1WRpigdNKm29Y2h-165">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="ellipse;html=1;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#222;strokeColor=#222;fontColor=#fff;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="67" width="67" x="105" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1. Cargar CSV del reporte de ventas" mermaidId="n:P1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="1. Cargar CSV del reporte de ventas" id="wMpOa1WRpigdNKm29Y2h-166">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="62.5" y="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:INI-&gt;P1#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="" id="wMpOa1WRpigdNKm29Y2h-171">
+          <mxCell edge="1" parent="pOTsynvupev_f8Cp1Rnz-3" source="wMpOa1WRpigdNKm29Y2h-165" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="wMpOa1WRpigdNKm29Y2h-166">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="3. Seleccionar clientes y generar lotes" mermaidId="n:P3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="3. Seleccionar clientes y generar lotes" id="wMpOa1WRpigdNKm29Y2h-167">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="62.5" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="4. Crear lotes de máximo 50 clientes" mermaidId="n:P4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="4. Crear lotes de máximo 50 clientes" id="wMpOa1WRpigdNKm29Y2h-147">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="62.5" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-185" edge="1" parent="pOTsynvupev_f8Cp1Rnz-3" source="wMpOa1WRpigdNKm29Y2h-167" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="wMpOa1WRpigdNKm29Y2h-147">
+          <mxGeometry relative="1" x="-0.1166" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-11" edge="1" parent="pOTsynvupev_f8Cp1Rnz-3" source="wMpOa1WRpigdNKm29Y2h-169" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="wMpOa1WRpigdNKm29Y2h-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-12" connectable="0" parent="pOTsynvupev_f8Cp1Rnz-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0179" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="¿Reintentar errores o quedan lotes?" mermaidId="n:P12" mermaidBaseStyle="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="¿Reintentar errores o quedan lotes?" id="wMpOa1WRpigdNKm29Y2h-169">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="208" width="208" x="75.5" y="1900" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Fin" mermaidId="n:FIN" mermaidBaseStyle="ellipse;html=1;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#222;strokeColor=#222;fontColor=#fff;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Fin" id="wMpOa1WRpigdNKm29Y2h-170">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-3" style="ellipse;html=1;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#222;strokeColor=#222;fontColor=#fff;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="77" width="77" x="141" y="2170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-16" edge="1" parent="pOTsynvupev_f8Cp1Rnz-3" source="wMpOa1WRpigdNKm29Y2h-170" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="wMpOa1WRpigdNKm29Y2h-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-4" parent="pOTsynvupev_f8Cp1Rnz-2" style="swimlane;startSize=20;html=1;" value="Web App" vertex="1">
+          <mxGeometry height="2300" width="570" x="400" y="20" as="geometry" />
+        </mxCell>
+        <UserObject label="2. Filtrar clientes que requieren subsidio y pagaron 6 cuotas" mermaidId="n:P2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="2. Filtrar clientes que requieren subsidio y pagaron 6 cuotas" id="wMpOa1WRpigdNKm29Y2h-146">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="129" width="152" x="130" y="220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="5. Enviar lote del día" mermaidId="n:P5" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="5. Enviar lote del día" id="wMpOa1WRpigdNKm29Y2h-168">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="67" width="152" x="130" y="550" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="6. Consultar correo y certificado del cliente" mermaidId="n:P6" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="6. Consultar correo y certificado del cliente" id="wMpOa1WRpigdNKm29Y2h-148">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="108" width="152" x="130" y="680" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-188" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-168" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="wMpOa1WRpigdNKm29Y2h-148">
+          <mxGeometry relative="1" x="0.0007" as="geometry">
+            <mxPoint x="-990" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="8. Generar PDF del certificado" mermaidId="n:P8" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="8. Generar PDF del certificado" id="wMpOa1WRpigdNKm29Y2h-149">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="67" width="152" x="140" y="880" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="9. Enviar correo con el PDF" mermaidId="n:P9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="9. Enviar correo con el PDF" id="wMpOa1WRpigdNKm29Y2h-150">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="67" width="152" x="140" y="990" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-191" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-149" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMpOa1WRpigdNKm29Y2h-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="10. Marcar ENVIADO y registrar en bitácora" mermaidId="n:P10" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#E3F4E1;strokeColor=#2E7D32;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="10. Marcar ENVIADO y registrar en bitácora" id="wMpOa1WRpigdNKm29Y2h-152">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#E3F4E1;strokeColor=#2E7D32;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="108" width="152" x="325" y="1320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Marcar ERROR" mermaidId="n:E1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#FDE2E1;strokeColor=#C0392B;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Marcar ERROR" id="wMpOa1WRpigdNKm29Y2h-153">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#FDE2E1;strokeColor=#C0392B;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="45" width="152" x="140" y="1340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="¿Quedan clientes en el lote?" mermaidId="n:D2" mermaidBaseStyle="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="¿Quedan clientes en el lote?" id="wMpOa1WRpigdNKm29Y2h-154">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="208" width="208" x="112" y="1550" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-200" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-154" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="wMpOa1WRpigdNKm29Y2h-148">
+          <mxGeometry relative="1" x="0.1358" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-201" connectable="0" parent="wMpOa1WRpigdNKm29Y2h-200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SI" vertex="1">
+          <mxGeometry relative="1" x="-0.081" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-198" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-152" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="wMpOa1WRpigdNKm29Y2h-154">
+          <mxGeometry relative="1" x="-0.0636" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-199" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-153" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMpOa1WRpigdNKm29Y2h-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="11. Mostrar resultados del lote" mermaidId="n:P11" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="11. Mostrar resultados del lote" id="wMpOa1WRpigdNKm29Y2h-155">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="140" y="1800" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-202" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-154" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMpOa1WRpigdNKm29Y2h-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="¿Envío exitoso?" mermaidId="n:D1" mermaidBaseStyle="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="¿Envío exitoso?" id="wMpOa1WRpigdNKm29Y2h-151">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-4" style="rhombus;html=1;strokeWidth=2;whiteSpace=wrap;fillColor=#FFF4CC;strokeColor=#B38F00;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="144" width="174" x="129" y="1110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-192" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-150" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="wMpOa1WRpigdNKm29Y2h-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-193" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-151" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="wMpOa1WRpigdNKm29Y2h-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-195" connectable="0" parent="wMpOa1WRpigdNKm29Y2h-193" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SI" vertex="1">
+          <mxGeometry relative="1" x="-0.2417" y="6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-9" edge="1" parent="pOTsynvupev_f8Cp1Rnz-4" source="wMpOa1WRpigdNKm29Y2h-151" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="wMpOa1WRpigdNKm29Y2h-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-10" connectable="0" parent="pOTsynvupev_f8Cp1Rnz-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.1262" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-186" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-166" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="wMpOa1WRpigdNKm29Y2h-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-184" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-146" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="wMpOa1WRpigdNKm29Y2h-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-187" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-147" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMpOa1WRpigdNKm29Y2h-168">
+          <mxGeometry relative="1" x="0.0769" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-189" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-148" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" target="wMpOa1WRpigdNKm29Y2h-143">
+          <mxGeometry relative="1" x="0.1118" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-190" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-143" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=0;" target="wMpOa1WRpigdNKm29Y2h-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-197" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-152" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="wMpOa1WRpigdNKm29Y2h-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-203" connectable="0" parent="wMpOa1WRpigdNKm29Y2h-197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0734" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMpOa1WRpigdNKm29Y2h-204" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-155" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="wMpOa1WRpigdNKm29Y2h-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-14" edge="1" parent="pOTsynvupev_f8Cp1Rnz-2" source="wMpOa1WRpigdNKm29Y2h-169" style="edgeStyle=orthogonalEdgeStyle;shape=filledEdge;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="wMpOa1WRpigdNKm29Y2h-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-15" connectable="0" parent="pOTsynvupev_f8Cp1Rnz-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="SI" vertex="1">
+          <mxGeometry relative="1" x="-0.965" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pOTsynvupev_f8Cp1Rnz-5" parent="pOTsynvupev_f8Cp1Rnz-2" style="swimlane;startSize=20;html=1;" value="CRM (Smarthome)" vertex="1">
+          <mxGeometry height="2300" width="320" x="970" y="20" as="geometry" />
+        </mxCell>
+        <UserObject label="7. Entregar correo y datos del certificado" mermaidId="n:P7" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="7. Entregar correo y datos del certificado" id="wMpOa1WRpigdNKm29Y2h-143">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-5" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="50" y="770" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Guardar nota en bitácora" mermaidId="n:BIT" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Guardar nota en bitácora" id="wMpOa1WRpigdNKm29Y2h-144">
+          <mxCell parent="pOTsynvupev_f8Cp1Rnz-5" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="67" width="152" x="60" y="1420" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
