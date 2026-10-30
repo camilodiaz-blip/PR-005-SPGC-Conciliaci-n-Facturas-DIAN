@@ -38,6 +38,10 @@ df_bd = pd.read_parquet("data\\staging\\sinco.parquet")
 df_final = pd.concat([df_bd, df], ignore_index=True)
 df_final = df_final.drop_duplicates(subset=["Proveedor", "No. Factura", "Radicado"], keep="last")
 
+#se excluyen los radicados cancelados; se filtra después de quitar duplicados para que
+#un radicado que se cancela en un archivo nuevo también salga del staging
+df_final = df_final[df_final["Estado"] != "Cancelada"]
+
 print("Sinco actualizado")
 
 #Guardar como parquet

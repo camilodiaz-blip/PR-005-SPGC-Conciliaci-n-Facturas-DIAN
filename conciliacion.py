@@ -9,6 +9,10 @@ df_dian.columns = ["Tipo_documento","Fecha","NIT_tercero","Nombre_tercero","Pref
 df_sinco = pd.read_parquet("data\\staging\\sinco.parquet")
 df_sinco.columns = ["Factura","Proveedor","Fecha","Fecha_radicado","Obra","Documento_ADPRO","Documento_Contable","Actividad","Responsable", "Total","Radicado" , "Estado_radicado", "Nombre_tercero", "NIT_tercero"]
 
+#Aguas de la Prosperidad: en SINCO se radica como 020000 + folio y en DIAN es SPD + folio
+aguas_prosperidad = (df_sinco["NIT_tercero"] == "901122927") & df_sinco["Factura"].str.startswith("020000", na=False)
+df_sinco.loc[aguas_prosperidad, "Factura"] = "SPD" + df_sinco.loc[aguas_prosperidad, "Factura"].str[6:]
+
 #Combinación de los dataframes
 df = pd.merge(df_dian, df_sinco, how="outer", on=["Factura", "NIT_tercero"], suffixes=("_dian", "_sinco"))
 
